@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "github.com/global-devops-terraform/vpc?ref=v1.18.0"
+  source = "github.com/global-devops-terraform/vpc?ref=v1.19.0"
 
   name                    = local.name
   cidr                    = var.cidr_block
