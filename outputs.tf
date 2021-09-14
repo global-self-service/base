@@ -72,8 +72,3 @@ output "environment" {
   value       = var.environment
   description = "Environment"
 }
-
-output "bastion_security_group_id" {
-  value       = module.bastion.security_group_id
-  description = "Bastion security group ID"
-}
