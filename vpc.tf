@@ -10,4 +10,5 @@ module "vpc" {
   kubernetes_cluster_name = local.name
   create_rds              = true
   create_persistence      = true
+  ha_nat                  = var.production_account
 }
