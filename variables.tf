@@ -14,11 +14,6 @@ variable "es_port" {
   description = "Elasticsearch port"
 }
 
-variable "bastion_nlb_cidr" {
-  type    = list(string)
-  default = []
-}
-
 variable "production_account" {
   type        = bool
   default     = false

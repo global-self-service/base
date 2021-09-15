@@ -120,7 +120,6 @@ for this configuration.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_bastion_nlb_cidr"></a> [bastion\_nlb\_cidr](#input\_bastion\_nlb\_cidr) | n/a | `list(string)` | `[]` | no |
 | <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | CIDR block for VPC | `string` | n/a | yes |
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment | `string` | n/a | yes |
 | <a name="input_es_port"></a> [es\_port](#input\_es\_port) | Elasticsearch port | `number` | `9243` | no |
