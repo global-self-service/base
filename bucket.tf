@@ -1,5 +1,5 @@
 module "logs" {
-  source = "github.com/global-devops-terraform/s3?ref=v0.17.1"
+  source = "github.com/global-devops-terraform/s3?ref=v0.17.2"
 
   bucket_name = local.log_bucket_name
   bucket_acl  = "log-delivery-write"
